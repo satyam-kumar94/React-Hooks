@@ -1,7 +1,8 @@
 import  UseEffectHooks  from "./AllHooks/UseeffectHooks"
 import Timer from "./AllHooks/Timer";
 import './App.css';
-// import HooksUsestate from "./AllHooks/HooksUsestate"
+import HooksUsestate from "./AllHooks/HooksUsestate"
+import UsecallbackHook from './AllHooks/UsecallbackHook';
 
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
     <div>
        {/* <UseEffectHooks /> */}
       {/* <HooksUsestate /> */}
-      <Timer />
-     
+      {/* <Timer /> */}
+      <UsecallbackHook />
 
     </div>
 
