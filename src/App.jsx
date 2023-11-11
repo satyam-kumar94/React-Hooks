@@ -3,6 +3,7 @@ import Timer from "./AllHooks/Timer";
 import './App.css';
 import HooksUsestate from "./AllHooks/HooksUsestate"
 import UsecallbackHook from './AllHooks/UsecallbackHook';
+import UsememoHook from "./AllHooks/UsememoHook";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
        {/* <UseEffectHooks /> */}
       {/* <HooksUsestate /> */}
       {/* <Timer /> */}
-      <UsecallbackHook />
+      {/* <UsecallbackHook /> */}
+      <UsememoHook />
 
     </div>
 
